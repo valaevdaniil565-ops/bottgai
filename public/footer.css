@@ -1,0 +1,41 @@
+.footer-contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.footer-contacts a {
+  color: var(--text);
+  text-decoration: none;
+  transition: color .25s;
+}
+
+.footer-contacts a:hover {
+  color: var(--lime);
+}
+
+@media (max-width: 900px) {
+  .footer {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .footer-contacts {
+    order: 3;
+    width: 100%;
+    flex-direction: row;
+    gap: 22px;
+  }
+
+  .footer p {
+    order: 4;
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer-contacts {
+    flex-direction: column;
+    gap: 7px;
+  }
+}

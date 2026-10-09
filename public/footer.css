@@ -15,6 +15,24 @@
   background: linear-gradient(160deg, rgba(217, 255, 99, .07), var(--panel) 48%);
 }
 
+.demo-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.demo-concept {
+  border-color: rgba(143, 124, 255, .3);
+  background: linear-gradient(160deg, rgba(143, 124, 255, .06), var(--panel) 48%);
+}
+
+.demo-concept .demo-status {
+  color: var(--purple);
+}
+
+.demo-card .demo-benefits + button {
+  margin-top: auto;
+}
+
 .demo-ready .demo-status,
 .fast-badge {
   color: var(--lime);

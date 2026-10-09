@@ -4,6 +4,11 @@
   gap: 3px;
 }
 
+.footer .brand small {
+  color: var(--muted);
+  font-weight: 500;
+}
+
 .footer-contacts a {
   color: var(--text);
   text-decoration: none;

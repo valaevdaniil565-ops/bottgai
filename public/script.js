@@ -39,6 +39,13 @@ document.querySelectorAll('.price-row').forEach(row => {
   });
 });
 
+document.querySelectorAll('.demo-request').forEach(button => {
+  button.addEventListener('click', () => {
+    document.querySelector('[name="service"]').value = button.dataset.service;
+    document.querySelector('#contact').scrollIntoView({ behavior: reduceMotion ? 'auto' : 'smooth' });
+  });
+});
+
 const form = document.querySelector('#lead-form');
 const status = form.querySelector('.form-status');
 

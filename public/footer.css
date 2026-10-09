@@ -4,6 +4,12 @@
   gap: 3px;
 }
 
+.brand-mark {
+  width: 46px;
+  font-size: .7rem;
+  letter-spacing: -.03em;
+}
+
 .footer .brand small {
   color: var(--muted);
   font-weight: 500;
